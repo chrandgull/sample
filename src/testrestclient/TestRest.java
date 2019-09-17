@@ -22,11 +22,9 @@ public class TestRest {
 
         WebTarget target = client.target(getBaseURI());
         // Get XML
-        String xmlResponse = target.path("rest").path("todo").request()
+        String xmlResponse = target.path("rest").request()
                 .accept(MediaType.TEXT_XML).get(String.class);
-        
-        //System.out.println(xmlResponse);
-        
+         
         JAXBContext jaxbContext;
         
         try {
