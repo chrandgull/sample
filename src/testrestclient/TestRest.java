@@ -1,5 +1,14 @@
 //Sample rest client that consumes XML
 
+//Note: Mocky.io URL contains the following XML: 
+
+/* <note>
+<to>Tove</to>
+<from>Jani</from>
+<heading>Reminder</heading>
+<body>Don't forget me this weekend!</body>
+</note> */
+
 package testrestclient;
 
 import java.io.StringReader;
