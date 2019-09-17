@@ -1,3 +1,5 @@
+//Sample rest client that consumes XML
+
 package testrestclient;
 
 import java.io.StringReader;
